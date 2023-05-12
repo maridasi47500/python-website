@@ -1,0 +1,23 @@
+textarea {
+width:500px;
+min-height:200px;
+font-size:20px;
+}
+body {
+text-align:center;
+margin-top:200px;
+}
+nav{
+
+    position: absolute;
+    font-size: 20px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+
+}
+nav > * {
+    float: left;
+    display: block;
+    width: 20%;
+}

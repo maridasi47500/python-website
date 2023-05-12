@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>%s</title>
+<link rel="stylesheet" href="/css.css"/>%s
+    </head>
+    <body>
+        <h1>Tous les sodas</h1>
+<button type="button" onclick="mycode();return false;">afficher formulaire</button>
+<div id="myform"></div>
+
+<a href="/glass">verre</a>
+<a href="/datareach">à propos</a>
+<a href="/">retour</a>
+<script>
+function mycode(){
+var form=document.getElementById('myform');
+if (form.innerHTML === ""){
+form.innerHTML+= `%s`;
+}
+}
+</script>
+%s
+    </body>
+</html>
+ 
